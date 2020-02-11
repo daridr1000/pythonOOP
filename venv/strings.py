@@ -1,8 +1,8 @@
 class InputOutString:
     def __init__(self):
-        self.word = InputOutString.get_string()
-    @classmethod
-    def get_string(self):
+        self.word = self.get_string()
+    @staticmethod
+    def get_string():
         return  input("Type a word! ")
     def print_string(self):
         print(self.word.upper())
