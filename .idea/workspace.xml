@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13e9d0b8-d06f-424b-a4f7-10bb8efe49a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/venv/array_double_ended_queue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/array_queue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/array_stack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/geometry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/paranthesis_matching.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/polynomial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/python_oop(1).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/strings.py" afterDir="false" />
+    <list default="true" id="13e9d0b8-d06f-424b-a4f7-10bb8efe49a8" name="Default Changelist" comment="Practicals">
+      <change afterPath="$PROJECT_DIR$/venv/binary_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/expression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/linked_binary_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/linked_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/linked_queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/linked_stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/practical_exercise_1.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/practical_exercise_1/array_stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/practical_exercise_1/leakystack_assessment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/recursion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/trees.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/vale.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/animal.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/animal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/array_stack.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/leakystack_assessment.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +47,15 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.geometry">
-    <configuration name="geometry" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\python\pycharm oop\venv" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.expression">
+    <configuration name="expression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pycharm oop" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -55,7 +67,91 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/geometry.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/expression.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="leakystack_assessment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pycharm oop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/leakystack_assessment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="linked_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pycharm oop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/linked_list.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="linked_queue" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pycharm oop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/linked_queue.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="linked_stack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pycharm oop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/linked_stack.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -85,53 +181,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="python_oop(1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pycharm oop" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/python_oop(1).py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="strings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pycharm oop" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/strings.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.geometry" />
-        <item itemvalue="Python.strings" />
-        <item itemvalue="Python.python_oop(1)" />
+        <item itemvalue="Python.expression" />
+        <item itemvalue="Python.linked_queue" />
+        <item itemvalue="Python.linked_list" />
+        <item itemvalue="Python.linked_stack" />
+        <item itemvalue="Python.leakystack_assessment" />
       </list>
     </recent_temporary>
   </component>
@@ -158,10 +214,20 @@
       <option name="presentableId" value="Default" />
       <updated>1579778263319</updated>
     </task>
+    <task id="LOCAL-00001" summary="Practicals">
+      <created>1580988652050</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580988652050</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Practicals" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practicals" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580912795464">
@@ -172,42 +238,50 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="361" y="0" key="#python_oop_(1)/0.0.1280.680@0.0.1280.680" timestamp="1580911927237" />
-    <state width="1259" height="175" key="GridCell.Tab.0.bottom" timestamp="1580924290740">
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1580988999802">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="175" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580924290740" />
-    <state width="1259" height="175" key="GridCell.Tab.0.center" timestamp="1580924290739">
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1580988999802" />
+    <state x="421" y="97" key="FileChooserDialogImpl" timestamp="1581951693322">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="175" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1580924290739" />
-    <state width="1259" height="175" key="GridCell.Tab.0.left" timestamp="1580924290739">
+    <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1581951693322" />
+    <state width="1259" height="89" key="GridCell.Tab.0.bottom" timestamp="1585151768779">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="175" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1580924290739" />
-    <state width="1259" height="175" key="GridCell.Tab.0.right" timestamp="1580924290739">
+    <state width="1259" height="89" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585151768779" />
+    <state width="1259" height="89" key="GridCell.Tab.0.center" timestamp="1585151768779">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="175" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1580924290739" />
-    <state width="1259" height="204" key="GridCell.Tab.1.bottom" timestamp="1580923689580">
+    <state width="1259" height="89" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585151768779" />
+    <state width="1259" height="89" key="GridCell.Tab.0.left" timestamp="1585151768778">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580923689580" />
-    <state width="1259" height="204" key="GridCell.Tab.1.center" timestamp="1580923689580">
+    <state width="1259" height="89" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585151768778" />
+    <state width="1259" height="89" key="GridCell.Tab.0.right" timestamp="1585151768779">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1580923689580" />
-    <state width="1259" height="204" key="GridCell.Tab.1.left" timestamp="1580923689580">
+    <state width="1259" height="89" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585151768779" />
+    <state width="1259" height="204" key="GridCell.Tab.1.bottom" timestamp="1584979262421">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1580923689580" />
-    <state width="1259" height="204" key="GridCell.Tab.1.right" timestamp="1580923689580">
+    <state width="1259" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584979262421" />
+    <state width="1259" height="204" key="GridCell.Tab.1.center" timestamp="1584979262421">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1580923689580" />
-    <state x="336" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1580911894018">
+    <state width="1259" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1584979262421" />
+    <state width="1259" height="204" key="GridCell.Tab.1.left" timestamp="1584979262420">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="336" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1580911894018" />
+    <state width="1259" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1584979262420" />
+    <state width="1259" height="204" key="GridCell.Tab.1.right" timestamp="1584979262421">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1584979262421" />
+    <state x="336" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1584896315049">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="336" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1584896315049" />
     <state x="303" y="1" key="search.everywhere.popup" timestamp="1580158914053">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
