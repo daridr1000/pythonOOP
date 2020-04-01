@@ -1,6 +1,8 @@
 from binary_tree import BinaryTree
 
 
+
+
 class LinkedBinaryTree(BinaryTree):
     """Linked representation of a binary tree structure."""
 

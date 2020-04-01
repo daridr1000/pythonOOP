@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13e9d0b8-d06f-424b-a4f7-10bb8efe49a8" name="Default Changelist" comment="Practicals">
-      <change afterPath="$PROJECT_DIR$/venv/binary_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/expression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/linked_binary_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/linked_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/linked_queue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/linked_stack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/practical_exercise_1.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/practical_exercise_1/array_stack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/practical_exercise_1/leakystack_assessment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/recursion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/trees.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/vale.py" afterDir="false" />
+    <list default="true" id="13e9d0b8-d06f-424b-a4f7-10bb8efe49a8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/venv/array_stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/backup" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursion.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/array_stack.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/leakystack_assessment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/expression.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/expression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/linked_binary_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/linked_binary_tree.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +36,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -68,27 +57,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/expression.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="leakystack_assessment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pycharm oop" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/leakystack_assessment.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,6 +128,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="paranthesis_matching" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pycharm oop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/paranthesis_matching.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="python_oop (1)" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pycharm oop" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,10 +173,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.expression" />
+        <item itemvalue="Python.paranthesis_matching" />
         <item itemvalue="Python.linked_queue" />
         <item itemvalue="Python.linked_list" />
         <item itemvalue="Python.linked_stack" />
-        <item itemvalue="Python.leakystack_assessment" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580988652050</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Practicals">
+      <created>1585151800631</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585151800631</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -238,30 +234,30 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="361" y="0" key="#python_oop_(1)/0.0.1280.680@0.0.1280.680" timestamp="1580911927237" />
-    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1580988999802">
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1585151799403">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1580988999802" />
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1585151799403" />
     <state x="421" y="97" key="FileChooserDialogImpl" timestamp="1581951693322">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1581951693322" />
-    <state width="1259" height="89" key="GridCell.Tab.0.bottom" timestamp="1585151768779">
+    <state width="1259" height="362" key="GridCell.Tab.0.bottom" timestamp="1585763051746">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="89" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585151768779" />
-    <state width="1259" height="89" key="GridCell.Tab.0.center" timestamp="1585151768779">
+    <state width="1259" height="362" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585763051746" />
+    <state width="1259" height="362" key="GridCell.Tab.0.center" timestamp="1585763051745">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="89" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585151768779" />
-    <state width="1259" height="89" key="GridCell.Tab.0.left" timestamp="1585151768778">
+    <state width="1259" height="362" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585763051745" />
+    <state width="1259" height="362" key="GridCell.Tab.0.left" timestamp="1585763051745">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="89" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585151768778" />
-    <state width="1259" height="89" key="GridCell.Tab.0.right" timestamp="1585151768779">
+    <state width="1259" height="362" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585763051745" />
+    <state width="1259" height="362" key="GridCell.Tab.0.right" timestamp="1585763051746">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="89" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585151768779" />
+    <state width="1259" height="362" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585763051746" />
     <state width="1259" height="204" key="GridCell.Tab.1.bottom" timestamp="1584979262421">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -278,10 +274,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1259" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1584979262421" />
-    <state x="336" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1584896315049">
+    <state x="336" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1585750858584">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="336" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1584896315049" />
+    <state x="336" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1585750858584" />
     <state x="303" y="1" key="search.everywhere.popup" timestamp="1580158914053">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
