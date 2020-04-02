@@ -5,6 +5,7 @@ from array_stack import ArrayStack
 class NotValidExpression(Exception):
     pass
 
+"""For code, I would reference Chapter 8 from the book : Data Structures and Algorithms in Python by Goodrich, Tamassia and Goldwasser"""
 class ExpressionTree(LinkedBinaryTree):
     """An arithmetic expression tree."""
 
@@ -17,12 +18,8 @@ class ExpressionTree(LinkedBinaryTree):
         that become the operands for the binary operator.
         """
         super().__init__()  # LinkedBinaryTree initialization
-        if not isinstance(token, str):
-            raise TypeError('Token must be a string')
         self._add_root(token)  # use inherited, nonpublic method
         if left is not None:  # presumably three-parameter form
-            if token not in '+-*x/':
-                raise ValueError('token must be valid operator')
             self._attach(self.root(), left, right)  # use inherited, nonpublic method
 
     def __str__(self):
@@ -112,6 +109,7 @@ class ExpressionTree(LinkedBinaryTree):
         return other
 
 def match_paranthesis(expression):
+    """Checks if the parantheses from the expression match up correctly"""
     stack=ArrayStack()
     for s in expression:
         if s == '(':
@@ -124,19 +122,22 @@ def match_paranthesis(expression):
     return stack.is_empty()
 
 def no_operators(expression):
-    OPERATIONS = set('+-*/')
+    """Checks if the expression contains any operators"""
+    OPERATORS = set('+-*/')
     for i in expression:
-        if i in OPERATIONS:
+        if i in OPERATORS:
             return True
     raise NotValidExpression('Not a valid expression, no operators')
 
 def no_paranthesis(expression):
+    """Checks if the expression contains any parantheses"""
     for i in expression:
         if i in '()':
             return True
     raise NotValidExpression('Not a valid expression, no paranthesis')
 
 def no_numbers(expression):
+    """Checks if the expression contains any numbers"""
     NUMBERS = '0123456789'
     for i in expression:
         if i in NUMBERS:
@@ -144,6 +145,7 @@ def no_numbers(expression):
     raise NotValidExpression('Not a valid expression, no numbers')
 
 def invalid_characters(expression):
+    """Checks if the expression contains any invalid characters, others than numbers, parantheses or operators"""
     CHARACTERS = '0123456789()+-/*'
     for i in expression:
         if i not in CHARACTERS:
@@ -152,7 +154,7 @@ def invalid_characters(expression):
 
 def valid_expression(expression):
     """Verifies whether an expression is valid or not and displays appropiate messages"""
-    OPERATIONS = set('+-*/')
+    OPERATORS= '+*/-'
     if no_operators(expression) != True:
         return no_operators(expression)
     if no_paranthesis(expression) != True:
@@ -163,28 +165,30 @@ def valid_expression(expression):
         return invalid_characters(expression)
     if match_paranthesis(expression) == False:
         raise NotValidExpression('Not a valid expression, brackets mismatched.')
-    number_operations = 0
+    number_operators = 0
     number_paranthesis = 0
     for i in expression:
-        if i in OPERATIONS:
-            number_operations += 1
+        if i in OPERATORS:
+            number_operators += 1
         elif i == '(' or i == ')':
             number_paranthesis +=1
-    expression1 = expression[1:(len(expression) - 1)]
+    expression1 = expression[1:(len(expression) - 1)] # checks if the expression without the first and last character is valid
     if match_paranthesis(expression1) == False and ('(' in expression1 or ')' in expression1):
-        raise NotValidExpression('Not a valid expression, brackets mismatched.')
+        raise NotValidExpression('Not a valid expression, brackets mismatched.') # if it is not, raises an appropiate error
     for i in range(0, len(expression) - 1):
-        if expression[i] not in OPERATIONS and expression[i] not in '()':
+        #Checks if an operator is missing,if there exists a number followed by ( or if there is a )before the number
+        if expression[i] not in OPERATORS and expression[i] not in '()':
             if expression[i + 1] == '(':
                 raise NotValidExpression('Not a valid expression, operator missing.')
-        elif expression[i] in OPERATIONS and expression[i + 1] == ')' :
+        elif expression[i] in OPERATORS and expression[i + 1] in OPERATORS + ')' :
             raise NotValidExpression('Not a valid expression, wrong placement of operators')
-        if expression[i+1] not in OPERATIONS and expression[i + 1] not in '()':
+        #Checks if an operator is placed wrongly , before ) or next to another operator
+        if expression[i+1] not in OPERATORS and expression[i + 1] not in '()':
             if expression[i] == ')':
                 raise NotValidExpression('Not a valid expression, operator missing.')
-        elif expression[i+1] in OPERATIONS and expression[i] == '(':
+        elif expression[i+1] in OPERATORS and expression[i] in OPERATORS + '(':
             raise NotValidExpression('Not a valid expression, wrong placement of operators')
-    if 2*number_operations != number_paranthesis:
+    if 2*number_operators != number_paranthesis: # an expression is valid only if the number of paranthesis is equal to the double of the number of operators
         raise NotValidExpression('Not a valid expression, wrong number of operands.')
     return True
 
@@ -234,7 +238,7 @@ def build_expression_tree(tokens):
 
 
 if __name__ == '__main__':
-    ch = input("Press L for loading the tree or any other key for continue")
+    ch = input("Press L for loading the tree or any other key for continue ")
     if ch == 'L':
         big = ExpressionTree.load_binary_tree()
         big.visualise_binary_tree()
